@@ -1,0 +1,30 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+.BookTicketContainer{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+.card{
+    margin-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    /* padding: 1rem; */
+}
+
+.Heading{
+    text-align: center;
+    text-decoration: underline .3rem solid blue;
+    cursor: pointer;
+}

@@ -1,0 +1,141 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+}
+
+.MainContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.slide
+{
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+}
+
+.PhotoText{
+    position: absolute;
+    top: 4%;
+    right: 15%;
+    color: white;
+    margin: 2rem auto;
+    max-width: 40ch;
+    border: 8px solid #0038FF;
+    color: #fff;
+    padding: 2ch;
+    border-image: 
+      url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 0H8v4H4v4H0v8h4v4h4v4h8v-4h4v-4h4V8h-4V4h-4V0zm0 4v4h4v8h-4v4H8v-4H4V8h4V4h8z' fill='%230038FF'/%3E%3C/svg%3E")
+      8 stretch;
+    /* color: #FC766AFF; */
+    /* color: #5B84B1FF; */
+    color:maroon;
+    font: bolder;
+    }
+    .handleDetails
+    {
+        width: 100vw;
+        height: 30vh;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns:  auto auto;
+        gap: 3rem;
+        display: none;
+    }
+    
+    .OtherPhotoInfo{
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+        /* border: .5rem solid blue; */
+        height: 17rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        /* background-color: transparent; */
+        background-color: rgba(255, 0, 0, 0.4);
+        font-weight: 900;   
+        gap: 1rem;
+    }
+    .table-details{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+    .table-adjust{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .app{
+        cursor: pointer;
+
+    }
+    .app:hover{
+        color: blue;
+    }
+    .first{
+        height: 100%;
+        padding: 1rem;
+        border-right: .1rem solid white;
+    }
+    .second{
+        height: 100%;
+        padding: 1rem;
+        border-right: .1rem solid white;
+    }
+    .third{
+        height: 100%;
+        padding: 1rem;
+        border-right: .1rem solid white;
+    }
+    .forth{
+        height: 100%;
+        padding: 1rem;
+        border-right: .1rem solid white;
+    }
+
+@media (max-width:800px)
+{
+    .OtherPhotoInfo{
+        display: none;
+    }
+    .handleDetails{
+        display: grid;
+    }
+    #Details{
+        font-size: 3rem;
+    }
+    #Details1
+    {
+        font-size: 3rem;
+    }
+}
+@media (max-width:700px)
+{
+    .PhotoText{
+        display: none;
+    }
+}
+@media(max-width:550px)
+{
+    #Details
+    {
+        font-size: 2rem;
+    }
+    #Details1{
+        font-size: 2rem;
+    }
+}
