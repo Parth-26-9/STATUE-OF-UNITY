@@ -8,3 +8,30 @@ html
 {
     font-size: 62.5%;
 }
+.TouristContainer{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+@media (max-width:1000px)
+{
+.TouristContainer{
+    grid-template-columns: repeat(3,1fr);
+}
+}
+@media (max-width:700px)
+{
+    .TouristContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:400px)
+{
+    .TouristContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
