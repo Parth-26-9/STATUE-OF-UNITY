@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Statue-Of-Unity/static/css/main.8622a00c.css",
+    "main.js": "/Statue-Of-Unity/static/js/main.575bbcd5.js",
+    "index.html": "/Statue-Of-Unity/index.html",
+    "main.8622a00c.css.map": "/Statue-Of-Unity/static/css/main.8622a00c.css.map",
+    "main.575bbcd5.js.map": "/Statue-Of-Unity/static/js/main.575bbcd5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8622a00c.css",
+    "static/js/main.575bbcd5.js"
+  ]
+}
